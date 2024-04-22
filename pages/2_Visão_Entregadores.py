@@ -13,7 +13,7 @@ st.set_page_config(page_title='Visão Entregadores', page_icon='', layout = 'wid
      
 #Import dataset
 
-df = pd.read_csv('..dataset/train.csv')
+df = pd.read_csv('dataset/train.csv')
 
 #print(df.head())
 
@@ -106,7 +106,7 @@ def clean_code(df1):
 #    Import dataset
 #---------------------------------
 
-df = pd.read_csv('..dataset/train.csv')
+df = pd.read_csv('dataset/train.csv')
 
 # Clean dateset
 
