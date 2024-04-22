@@ -161,8 +161,8 @@ df1 = clean_code(df1)
 
 st.header('Marketplace - Visão Cliente')
 
-#image_path = 'log.png'
-image=Image.open(log.png)
+image_path = 'log.png'
+image=Image.open(imagge_path+log.png)
 st.sidebar.image( image,width=210)
 
 st.sidebar.markdown('# Cury Company')
