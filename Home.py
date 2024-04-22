@@ -3,8 +3,8 @@ from PIL import Image
 st.set_page_config(
   page_title="Home")
 
-image_path ='/Users/umpoz/Documents/REPOS/RevisãoExercicíos/'   
-image = Image.open(image_path + 'log.png')
+ 
+image = Image.open('log.png')
 st.sidebar.image(image, width=120)
 
 st.sidebar.markdown('#Cury Company')
